@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="170dp"
+    android:layout_height="240dp"
+    android:layout_marginTop="20dp"
+    android:layout_marginLeft="13dp"
+    android:id="@+id/item_question"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="20dp">
+
+    <ImageView
+        android:scaleType="centerCrop"
+        android:id="@+id/img_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/ai"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="130dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_question_title"
+            android:layout_width="105dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:text="Các bài tập giúp ngủ ngon"
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

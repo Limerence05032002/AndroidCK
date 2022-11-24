@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "651131111746",
+    "project_id": "listviewnc",
+    "storage_bucket": "listviewnc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:651131111746:android:ba6d71bc1211d956fd20db",
+        "android_client_info": {
+          "package_name": "com.example.listviewnc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "651131111746-vqo0e60rf0h68l9o37cgsfr8mg1n7lod.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZ1fhKQfeLia97OoXkXgqR6d1Ut23kdCs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "651131111746-vqo0e60rf0h68l9o37cgsfr8mg1n7lod.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

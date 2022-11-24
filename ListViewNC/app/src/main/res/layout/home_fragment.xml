@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#150D23"
+    android:id="@+id/frame"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:id="@+id/hinhnen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-150dp"
+        android:src="@drawable/mkverydays"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:text="Chào Buổi tối,"
+        android:textColor="@color/white"
+        android:textSize="26dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="60dp"
+        android:text="Trung Anh !"
+        android:textColor="@color/white"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_marginTop="130dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Truyện tiểu thuyết"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/Top_recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="134dp"
+        android:layout_marginTop="160dp" />
+
+    <TextView
+        android:layout_marginTop="300dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Truyện ngắn văn học"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/Love_recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="161dp"
+        android:layout_marginTop="335dp" />
+
+    <TextView
+        android:layout_marginTop="475dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Truyện ngủ phổ biến"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/Story_recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="169dp"
+        android:layout_marginTop="510dp" />
+
+    <ImageView
+        android:id="@+id/user"
+        android:layout_marginLeft="330dp"
+        android:layout_marginTop="30dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/user" />
+</FrameLayout>

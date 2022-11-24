@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_gravity="center_horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="360dp"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/name_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="26dp"
+            android:text="Chúng ta của hiện tại"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp"
+            android:textColor="@color/black"/>
+        <TextView
+            android:id="@+id/name_tacgia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Võ Trần Trung Anh"
+            android:textSize="14dp"
+            android:layout_marginBottom="30dp"
+            android:textColor="@color/black"/>
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/pharagraph"
+                android:textColor="@color/black"
+                android:layout_width="260dp"
+                android:layout_height="550dp"
+                android:text="Trung Wi-Fi (phiên âm: /ˈwaɪfaɪ/; goai-phai)[1] là một họ các giao thức mạng không dây, dựa trên các tiêu chuẩn của họ IEEE 802.11, được sử dụng rộng rãi trong cho việc kết nối không dây của thiết bị trong mạng nội bộ và việc kết nối Internet,[a] cho phép các thiết bị điện tử trong phạm vi ngắn chia sẻ dữ liệu thông qua sóng vô tuyến. Ngày nay, WiFi được sử dụng phổ biến trong các hệ thống mạng máy tính trên thế giới, như trong các hộ gia đình, văn phòng làm việc cho việc kết nối các máy tính bàn, laptop, tablet, điện thoại thông minh, máy in,... mà không cần đến cáp mạng, cũng như việc kết nối Internet cho các thiết bị này. Các địa điểm công cộng như như sân bay, quán café, thư viện hoặc khách sạn cũng được bố trí WiFi để phục vụ nhu cầu kết nối Internet cho các thiết bị di động, khi các thiết bị đó nằm trong khu vực có sóng của những hệ thống WiFi này Wi-Fi (phiên âm: /ˈwaɪfaɪ/; goai-phai)[1] là một họ các giao thức mạng không dây, dựa trên các tiêu chuẩn của họ IEEE 802.11, được sử dụng rộng rãi trong cho việc kết nối không dây của thiết bị trong mạng nội bộ và việc kết nối Internet,[a] cho phép các thiết bị điện tử trong phạm vi ngắn chia sẻ dữ liệu thông qua sóng vô tuyến. Ngày nay, WiFi được sử dụng phổ biến trong các hệ thống mạng máy tính trên thế giới, như trong các hộ gia đình, văn phòng làm việc cho việc kết nối các máy tính bàn, laptop, tablet, điện thoại thông minh, máy in,... mà không cần đến cáp mạng, cũng như việc kết nối Internet cho các thiết bị này. Các địa điểm công cộng như như sân bay, quán café, thư viện hoặc khách sạn cũng được bố trí WiFi để phục vụ nhu cầu kết nối Internet cho các thiết bị di động, khi các thiết bị đó nằm trong khu vực có sóng của những hệ thống WiFi này"/>
+        </ScrollView>
+    </LinearLayout>
+
+</RelativeLayout>
